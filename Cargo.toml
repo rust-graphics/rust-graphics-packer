@@ -1,0 +1,16 @@
+[package]
+name = "rust_graphics_packer"
+version = "0.1.0"
+authors = ["Hossein Noroozpour <hossein.noroozpour@gmail.com>"]
+description = "A simple, small and minimallistic packer"
+repository = "https://github.com/rust-graphics/rust-graphics-packer"
+license = "MIT"
+readme = "README.md"
+keywords = ["ffi", "android", "ios", "webassembly"]
+
+[dependencies]
+reqwest = "*"
+
+[features]
+debug_derive = []
+verbose_log = []
