@@ -9,7 +9,7 @@ readme = "README.md"
 keywords = ["ffi", "android", "ios", "webassembly"]
 
 [dependencies]
-reqwest = "*"
+reqwest = "0.10"
 
 [features]
 debug_derive = []
