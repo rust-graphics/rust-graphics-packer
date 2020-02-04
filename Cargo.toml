@@ -12,5 +12,5 @@ keywords = ["ffi", "android", "ios", "webassembly"]
 reqwest = "0.10"
 
 [features]
-debug_derive = []
-verbose_log = []
+debug-derive = []
+verbose-log = []
